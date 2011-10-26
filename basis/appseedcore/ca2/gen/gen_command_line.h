@@ -1,0 +1,92 @@
+#pragma once
+
+
+namespace fs
+{
+
+
+   class item_array;
+
+
+} // namespace fs
+
+
+namespace gen
+{
+
+
+   class command_thread;
+
+
+   class CLASS_DECL_ca command_line :
+      virtual public ::radix::object
+   {
+   public:
+
+
+      enum e_command
+      {
+         command_file_new,
+         command_file_open, 
+         command_file_print,
+         command_file_print_to,
+         command_file_dde, 
+         command_app_unregister,
+         command_file_nothing = -1
+      };
+
+
+      e_command                     m_ecommand;
+      BOOL                          m_bShowSplash;
+      BOOL                          m_bRunEmbedded;
+      BOOL                          m_bRunAutomated;
+      int                           m_nCmdShow;
+
+      // not valid for file_new
+      var                           m_varFile;
+
+      // valid only for file_print_to
+      string                        m_strPrinterName;
+      string                        m_strDriverName;
+      string                        m_strPortName;
+
+      var                           m_varQuery;
+      ::fs::item_array *            m_pitema;
+
+      ::ca::application *           m_pappFork;
+      string                        m_strApp;
+      ::user::interaction *         m_puiParent;
+      index                         m_iEdge;
+      manual_reset_event            m_eventReady;
+      ::ca::application_bias *      m_pbiasCreate;
+
+
+
+      command_line(::ca::application * papp);
+      ~command_line();
+
+      void common_construct();
+
+      command_line & operator = (const command_line & info);
+
+      virtual void ParseParam(const char* pszParam, BOOL bFlag, BOOL bLast);
+      virtual void ParseParamFlag(const char* pszParam);
+      virtual void ParseParamNotFlag(const char* pszParam);
+      virtual void ParseLast(BOOL bLast);
+
+
+      virtual void _001ParseCommandLine(const char * pszCommandLine);
+      virtual void _001ParseCommandLineUri(const char * pszCommandLine);
+
+      virtual void _001ParseCommandFork(const char * pszCommandFork);
+      virtual void _001ParseCommandForkUri(const char * pszCommandFork);
+
+
+   };
+
+
+
+
+
+} // namespace gen
+
