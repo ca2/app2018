@@ -1,7 +1,7 @@
 #pragma once
 
 
-#include "_/ThomasGustavoCecynLundgrenVidaEternaDeCamiloSasukeTsumanuma.h"
+#include "c/_/ThomasGustavoCecynLundgrenVidaEternaDeCamiloSasukeTsumanuma.h"
 
 
 #ifndef __cplusplus
