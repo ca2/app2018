@@ -56,7 +56,6 @@
  *
  */
 #include "framework.h"
-#include "ca4_nessie.h"
 
 /* #define TRACE_INTERMEDIATE_VALUES */
 
@@ -1686,6 +1685,7 @@ void NESSIEfinalize(struct NESSIEstruct * const structpointer,
     structpointer->bufferPos    = bufferPos;
 }
 
+/*
 static void display(const u8 array[], int length) {
     int i;
     for (i = 0; i < length; i++) {
@@ -1698,6 +1698,7 @@ static void display(const u8 array[], int length) {
         printf("%02X", array[i]);
     }
 }
+*/
 
 #define LONG_ITERATION 100000000
 
@@ -1717,14 +1718,14 @@ void makeNESSIETestVectors() {
     u8 data[128];
 
     memset(data, 0, sizeof(data));
-    printf("Message digests of strings of 0-bits and length L:\n");
+//    printf("Message digests of strings of 0-bits and length L:\n");
     for (i = 0; i < 1024; i++) {
         NESSIEinit(&w);
         NESSIEadd(data, i, &w);
         NESSIEfinalize(&w, digest);
-        printf("    L = %4d: ", i); display(digest, DIGESTBYTES); printf("\n");
+//        printf("    L = %4d: ", i); display(digest, DIGESTBYTES); printf("\n");
     }
-    printf("Message digests of all 512-bit strings S containing a single 1-bit:\n");
+  //  printf("Message digests of all 512-bit strings S containing a single 1-bit:\n");
     memset(data, 0, sizeof(data));
     for (i = 0; i < 512; i++) {
         /* set bit i: */
@@ -1732,8 +1733,8 @@ void makeNESSIETestVectors() {
         NESSIEinit(&w);
         NESSIEadd(data, 512, &w);
         NESSIEfinalize(&w, digest);
-        printf("    S = "); display(data, 512/8); printf(": ");
-        display(digest, DIGESTBYTES); printf("\n");
+  //      printf("    S = "); display(data, 512/8); printf(": ");
+    //    display(digest, DIGESTBYTES); printf("\n");
         /* reset bit i: */
         data[i/8] = 0;
     }
@@ -1743,9 +1744,9 @@ void makeNESSIETestVectors() {
         NESSIEadd(digest, 512, &w);
         NESSIEfinalize(&w, digest);
     }
-    fflush(stdout);
-    printf("Iterated message digest computation (%d times): ", LONG_ITERATION);
-    display(digest, DIGESTBYTES); printf("\n");
+//    fflush(stdout);
+  //  printf("Iterated message digest computation (%d times): ", LONG_ITERATION);
+    //display(digest, DIGESTBYTES); printf("\n");
 }
 
 

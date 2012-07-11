@@ -41,6 +41,14 @@ public:
 
    inline ::count get_size() const { return m_iSize; } 
 
+   void FromAsc(const char * psz);
+
+   void From(const char * psz);
+
+   void ToAsc(vsstring & str);
+
+   void To(vsstring & str, size_t dwStart = 0, size_t dwEnd = -1);
+
 };
 
 
