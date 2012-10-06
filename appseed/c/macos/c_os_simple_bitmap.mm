@@ -5,20 +5,19 @@
 //  Created by Thomas Borregaard Sørensen on 10/6/12.
 //
 //
-#include "framework.h"
+#import "c_os_gdi_mm.h"
 
 
 simple_bitmap::simple_bitmap()
 {
    
-   m_pixmap = 0;
-   
+   m_nsimage = NULL;
 }
 
 simple_bitmap::~simple_bitmap()
 {
    
-   if(m_pixmap != 0)
+   if(m_nsimage != 0)
    {
       
       destroy();
