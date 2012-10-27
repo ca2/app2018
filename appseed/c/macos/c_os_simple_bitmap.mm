@@ -5,7 +5,7 @@
 //  Created by Thomas Borregaard Sørensen on 10/6/12.
 //
 //
-#import "c_os_gdi_mm.h"
+#import "c_os_graphics_mm.h"
 
 
 simple_bitmap::simple_bitmap()
