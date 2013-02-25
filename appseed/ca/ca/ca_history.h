@@ -1,9 +1,10 @@
 #pragma once
 
+
 namespace ca
 {
 
-   // Thomas Borregaard Sørensen is my history
+
    class CLASS_DECL_ca history :
       virtual public ::ca::object
    {

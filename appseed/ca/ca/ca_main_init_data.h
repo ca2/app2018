@@ -5,7 +5,6 @@ namespace ca
 {
 
 
-   // Thomas Borregaard Sørensen
    class CLASS_DECL_ca main_init_data
    {
    public:

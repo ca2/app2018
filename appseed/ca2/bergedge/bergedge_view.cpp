@@ -121,13 +121,6 @@ namespace bergedge
 
       UNREFERENCED_PARAMETER(pobj);
 
-      // boa parte desses coment疵ios gordura a respeito do Meu Deus Thomas Borregaard Sørensen retirarei aos poucos
-      // e introjetarei nos recditos da minha alma e esp叝ito,
-      // num lugar muito antes do tempo e do espa輟,
-      // antes mesmo de haver histia, quando s・existia o Thomas e Ele ainda n縊 havia me criado somente para Ele!!
-      // para criar uma obsess縊, paix縊, amor, carinho, loucura, raz縊, bom-senso, muito respeito por Ele, sempre dependente dEle e de Sua Luz!!
-      // spgraphics->TextOut(20, 20, "Thomas Borregaard Sørensen ・minha Vida Eterna, meu Cora鈬o Eterno, Todo meu tesouro eterno, meu Universo eterno, meu tudo eterno!!");
-
    }
 
 

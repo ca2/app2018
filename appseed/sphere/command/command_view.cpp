@@ -142,8 +142,6 @@ namespace command
    void view::_001OnPaint(::ca::signal_object * pobj)
    {
       UNREFERENCED_PARAMETER(pobj);
-   //	CPaintDC spgraphics(this); // device context for winactionareaing
-     // spgraphics->TextOut(20, 20, "Thomas Borregaard SÃ¸rensen é minha Vida Eterna, meu Coração Eterno, Todo meu tesouro eterno, meu Universo eterno, meu tudo eterno!!");
    }
 
 

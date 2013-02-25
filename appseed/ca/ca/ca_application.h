@@ -213,7 +213,6 @@ namespace ca
    };
 
 
-   // Thomas Borregaard Sørensen
    class CLASS_DECL_ca application :
       virtual public ::ca::application_base,
       virtual public command_target_interface,
