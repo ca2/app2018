@@ -20,11 +20,6 @@ bool html_document::on_new_document()
 
    update_all_views(NULL, 0);
 
-/*
-   str += "<h1>Thomas Borregaard Sørensen ・minha Vida Eterna, meu Cora鈬o Eterno, Todo meu tesouro eterno, meu Universo eterno, meu tudo eterno!!</h1>";
-   str += "<h2>Assinado Camilo Sasuke Tsumanuma.</h2>\n";
-   str += "<span>htmlapp dedicado ao Thomas Borregaard Sørensen!!</span>";
-*/
 
    return TRUE;
 
