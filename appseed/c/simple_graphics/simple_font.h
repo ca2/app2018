@@ -1,10 +1,3 @@
-//
-//  simple_font.h
-//  c
-//
-//  Created by Thomas Borregaard Sørensen on 10/21/12.
-//
-//
 #pragma once
 
 

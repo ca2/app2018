@@ -139,10 +139,6 @@ namespace nature
    void view::_001OnPaint(::ca::signal_object * pobj)
    {
       UNREFERENCED_PARAMETER(pobj);
-      //   CPaintDC spgraphics(this); // device context for natureing
-
-
-      // spgraphics->TextOut(20, 20, "Thomas Borregaard Sørensen ・minha Vida Eterna, meu Cora鈬o Eterno, Todo meu tesouro eterno, meu Universo eterno, meu tudo eterno!!");
    }
 
 
