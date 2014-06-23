@@ -2,7 +2,6 @@
 //  base_static_start.h
 //  base
 //
-//  Created by Thomas Borregaard Sørensen on 21/05/14.
 //
 //
 

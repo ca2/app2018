@@ -2,7 +2,6 @@
 //  base_draw2d.h
 //  base
 //
-//  Created by Thomas Borregaard Sørensen on 16/11/13.
 //
 //
 #pragma once

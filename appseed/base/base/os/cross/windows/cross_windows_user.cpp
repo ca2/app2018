@@ -2,7 +2,6 @@
 //  windows_user.cpp
 //  c
 //
-//  Created by Thomas Borregaard Sørensen on 12/8/12.
 //
 //
 #include "framework.h"

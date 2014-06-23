@@ -2,7 +2,6 @@
 //  ansios_thread_impl.cpp
 //  base
 //
-//  Created by Thomas Borregaard Sørensen on 21/05/14.
 //
 //
 
