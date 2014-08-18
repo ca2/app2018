@@ -1,6 +1,6 @@
 //
 //  base_a_rid_file.h
-//  base
+//  axis
 //
 //  Created by Thomas Borregaard Sørensen on 25/04/14.
 //
