@@ -1,6 +1,6 @@
 //
 //  ios_ns_exception.h
-//  axis
+//  aura
 //
 //  Created by Thomas Borregaard Sørensen on 18/10/13.
 //
