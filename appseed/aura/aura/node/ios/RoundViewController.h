@@ -1,6 +1,6 @@
 //
 //  RoundViewController.h
-//  axis
+//  aura
 //
 //  Created by Thomas Borregaard Sørensen on 14/05/14.
 //
