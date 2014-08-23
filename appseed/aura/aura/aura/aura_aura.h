@@ -1,6 +1,6 @@
 //
 //  base_a_rid_file.h
-//  axis
+//  aura
 //
 //  Created by Thomas Borregaard Sørensen on 25/04/14.
 //
