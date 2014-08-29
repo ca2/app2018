@@ -76,14 +76,6 @@ public:
 
 };
 
-#ifdef _DEBUG
-inline void _debug_charguess()
-{
-   string strCharGuest = charguess("\"Thomas é brasileiro\" está escrito em um código de página latino?")();
-}
-
-#endif
-
 
 
 #endif // cplusplus
