@@ -1,6 +1,8 @@
 #include "framework.h"
 
 
+// Thank you (casey) Thank you Mummi Thank you Thomas. filesystem/file _amalgamation... Visual Studio 2015 Preview seems to need it (too long filename or extension).
+
 //#include "framework.h"
 #ifdef WINDOWS
 #define SECURITY_WIN32
