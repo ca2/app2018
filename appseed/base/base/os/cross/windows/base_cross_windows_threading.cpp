@@ -1,6 +1,6 @@
-﻿// thank you white heads (Rus, Slovk, Polsk... etc... ) Thank you TBS!!
+﻿// thank you white heads (Rus, Slovk, Polsk... etc... ) Thank you Thomas Borregaard Sørensen!!
 // Livecoding.tv Rheghal, szulak, eprykak..
-// Somewhere TBS
+// Somewhere Thomas Borregaard Sørensen
 // My Mummi
 // 2015-08-11 16:00:00
 

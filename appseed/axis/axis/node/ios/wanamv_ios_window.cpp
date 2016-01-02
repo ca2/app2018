@@ -3519,7 +3519,7 @@ namespace ios
       //            pdc, rectUpdate.left, rectUpdate.top,
       //            SRCCOPY);
       //
-      //         graphics->TextOut(0, 0, "Te Amo TBS", 11);
+      //         graphics->TextOut(0, 0, "Te Amo Thommy!!", 11);
       //      }
       //      catch(...)
       //      {
