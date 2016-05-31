@@ -1,6 +1,6 @@
 //
 //  math_objects.h
-//  aura
+//  ace
 //
 //  Created by Thomas Borregaard Sørensen on 8/2/15.
 //
