@@ -2,7 +2,7 @@
 //  os.h
 //  aura
 //
-//  Created by Thomas Borregaard Sørensen on 08/07/15.
+//  Created by Camilo Sasuke Tsumanuma on 08/07/15.
 //
 //
 

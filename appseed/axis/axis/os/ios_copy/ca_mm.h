@@ -2,7 +2,7 @@
 //  c_mm.h
 //  c
 //
-//  Created by Thomas Borregaard Sørensen on 10/6/12.
+//  Created by Camilo Sasuke Tsumanuma on 10/6/12.
 //
 //
 #pragma once

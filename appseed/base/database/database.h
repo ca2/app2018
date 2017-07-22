@@ -2,7 +2,7 @@
 //  database.h
 //  base
 //
-//  Created by Thomas Borregaard Sørensen on 8/3/15.
+//  Created by Camilo Sasuke Tsumanuma on 8/3/15.
 //
 //
 

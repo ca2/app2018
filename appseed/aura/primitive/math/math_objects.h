@@ -2,7 +2,7 @@
 //  math_objects.h
 //  aura
 //
-//  Created by Thomas Borregaard Sørensen on 8/2/15.
+//  Created by Camilo Sasuke Tsumanuma on 8/2/15.
 //
 //
 

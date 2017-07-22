@@ -2,7 +2,7 @@
 //  macos_ns_exception.cpp
 //  base
 //
-//  Created by Thomas Borregaard Sørensen on 18/10/13.
+//  Created by Camilo Sasuke Tsumanuma on 18/10/13.
 //
 //
 

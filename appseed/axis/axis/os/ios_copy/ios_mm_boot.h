@@ -2,7 +2,7 @@
 //  macos_mm.h
 //  boot
 //
-//  Created by Thomas Borregaard Sørensen on 16/11/13.
+//  Created by Camilo Sasuke Tsumanuma on 16/11/13.
 //
 //
 

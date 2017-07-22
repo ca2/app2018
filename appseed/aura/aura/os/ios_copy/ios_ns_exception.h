@@ -2,7 +2,7 @@
 //  ios_ns_exception.h
 //  aura
 //
-//  Created by Thomas Borregaard Sørensen on 18/10/13.
+//  Created by Camilo Sasuke Tsumanuma on 18/10/13.
 //
 //
 

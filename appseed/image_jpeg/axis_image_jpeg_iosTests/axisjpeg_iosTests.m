@@ -2,7 +2,7 @@
 //  math_iosTests.m
 //  math_iosTests
 //
-//  Created by Thomas Borregaard Sørensen on 28/04/14.
+//  Created by Camilo Sasuke Tsumanuma on 28/04/14.
 //  Copyright (c) 2014 Camilo Sasuke Tsumanuma. All rights reserved.
 //
 
